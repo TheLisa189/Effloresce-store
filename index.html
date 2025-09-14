@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Магазин цветов</title>
+<style>
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #ED6B9F;
+  }
+  header {
+    background: #9CEF6C;
+    padding: 20px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #F56E8D;
+  }
+  .description {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .bouquets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .bouquet {
+    width: 120px;
+    margin: 10px;
+    text-align: center;
+  }
+  .bouquet img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .bouquet-name {
+    margin: 10px 0 5px;
+  }
+  .order-button {
+    background: #9CEF6C;
+    color: #EA0037;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .social {
+    background: #9CEF6C;
+    padding: 20px;
+    text-align: center;
+  }
+  .social h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #F56E8D;
+  }
+  .social ul {
+    list-style: none;
+    padding: 0;
+  }
+  .social li {
+    margin: 5px 0;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Магазин цветов</h1>
+  <section class="description">
+  <p>Наш магазин цветов в Жмеринке выполняет доставку букетов на любой адрес города в самые сжатые сроки. Цветочный магазин работает ежедневно, поэтому заказать цветы с доставкой по Жмеринке можно в любой день.</p>
+</section>
+</header>
+
+<section class="bouquets">
+  <div class="bouquet">
+    <img src="assets/flower1.png" alt="Нежный, игривый букет">
+    <div class="bouquet-name">Нежный, игривый букет</div>
+    <button class="order-button">Заказать</button>
+  </div>
+  <div class="bouquet">
+    <img src="assets/flower2.png" alt="Элегантный букет в стиле медузы">
+    <div class="bouquet-name">Воздушный, лёгкий букет</div>
+    <button class="order-button">Заказать</button>
+  </div>
+  <div class="bouquet">
+    <img src="assets/flower3.png" alt="Строгий, деловой букет">
+    <div class="bouquet-name">Яркий, задорный букет</div>
+    <button class="order-button">Заказать</button>
+  </div>
+  <div class="bouquet">
+    <img src="assets/flower4.png" alt="Элегантный букет в стиле медузы">
+    <div class="bouquet-name">Элегатный букет
+в стиле медузы</div>
+    <button class="order-button">Заказать</button>
+  </div>
+  <div class="bouquet">
+    <img src="assets/flower5.png" alt="Яркий, задорный букет">
+    <div class="bouquet-name">Строгий, деловой букет</div>
+    <button class="order-button">Заказать</button>
+  </div>
+  <div class="bouquet">
+    <img src="assets/flower6.png" alt="Пышный, острый букет">
+    <div class="bouquet-name">Пышный, острый букет</div>
+    <button class="order-button">Заказать</button>
+  </div>
+</section>
+
+<section class="social">
+  <h2>Социальные сети</h2>
+  <ul>
+    <li>EffloresceStore (Instagram)</li>
+    <li>EffloresceStore (Facebook)</li>
+    <li>Zmerynka, vul. Shevchenka 5</li>
+  </ul>
+</section>
+
+<section style="background-color: #F56E8D; color: #fff; padding: 20px; text-align: center;">
+  <img class="icons-section" src="assets/Home.png" data-action="home" alt="Home">
+  <img class="icons-section" src="assets/Settings.png" data-action="settings" alt="Settings">
+  <img class="icons-section" src="assets/Shopping cart.png" data-action="cart" alt="Cart">
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

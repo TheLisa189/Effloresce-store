@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background: #FFFFFF;
+  font-size: 16px;
+}
+
+.iphone-16-pro-max {
+  position: relative;
+  width: 440px;
+  height: 956px;
+  background: #FFFFFF;
+}
+
+.header-green {
+  position: absolute;
+  width: 440px;
+  height: 300px;
+  left: 0;
+  top: 15px;
+  background: #9CEF6C;
+}
+
+.footer-pink {
+  position: absolute;
+  width: 440px;
+  height: 97px;
+  left: 0;
+  top: 859px;
+  background: #F56E8D;
+}
+
+.bottom-button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #9CEF6C;
+}
+
+.home { left: 17px; top: 886px; }
+.settings { left: 96px; top: 886px; }
+.watch { left: 159px; top: 886px; }
+.phone { left: 238px; top: 890px; }
+.mail { left: 306px; top: 890px; }
+.gift { left: 381px; top: 888px; }
+
+.hidden-rect {
+  position: absolute;
+  visibility: hidden;
+  height: 800px;
+  top: 60px;
+  background: rgba(156, 239, 108, 0.3);
+}
+.hidden-rect1 { width: 100px; left: 20px; }
+.hidden-rect2 { width: 100px; left: 160px; }
+.hidden-rect3 { width: 120px; left: 300px; }
+
+.title-main {
+  position: absolute;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #F56E8D;
+}
+
+.shop-name { left: 119px; top: 25px; width: 194px; height: 29px; }
+.our-bouquets { left: 129px; top: 182px; width: 156px; height: 29px; }
+.socials { left: 115px; top: 678px; width: 210px; height: 29px; }
+
+.text-block {
+  position: absolute;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #ED6B9F;
+}
+
+.description { left: 11px; top: 69px; width: 429px; height: 123px; }
+
+.bouquet {
+  position: absolute;
+  width: 122px;
+  height: 142px;
+  background-size: cover;
+  background-position: center;
+}
+
+.bouquet1 { left: 17px; top: 224px; background-image: url(faf8758af65f1d518b1f89fc54d81ca3.jpg); }
+.bouquet2 { left: 159px; top: 224px; background-image: url(6b45f04e2860ba8d504c79cdff1043ae.jpg); }
+.bouquet3 { left: 303px; top: 224px; background-image: url(4a717ccbd41010dd210ac0a94104e60e.jpg); }
+
+.bouquet-text {
+  position: absolute;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #ED6B9F;
+}
+
+.bouquet-text1 { left: 17px; top: 369px; width: 119px; height: 34px; }
+.bouquet-text2 { left: 159px; top: 369px; width: 122px; height: 34px; }
+.bouquet-text3 { left: 303px; top: 369px; width: 123px; height: 34px; }
+
+.order-btn {
+  position: absolute;
+  width: 122px;
+  height: 26px;
+  background: #9CEF6C;
+  border-radius: 5px;
+}
+
+.order-text {
+  position: absolute;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EA0037;
+}
+
+.order1 { left: 17px; top: 405px; }
+.order1-text { left: 43px; top: 409px; }
+
+.order2 { left: 159px; top: 403px; }
+.order2-text { left: 185px; top: 407px; }
+
+.order3 { left: 303px; top: 405px; }
+.order3-text { left: 329px; top: 409px; }
+
+/* Промокод F10werPr0moSale4 */

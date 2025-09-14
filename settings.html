@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Настройки</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background: #fce4ee;
+      padding: 20px;
+      color: #333;
+      text-align: center;
+    }
+
+    h1 {
+      color: #F56E8D;
+      margin-bottom: 30px;
+    }
+
+    .language-selection {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+
+    .lang-button {
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+      color: white;
+      background: #9CEF6C;
+      transition: 0.2s;
+    }
+
+    .lang-button:hover {
+      background: #7bd34a;
+    }
+
+    .back-home {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 10px 20px;
+      background: #F56E8D;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .back-home:hover {
+      background: #ff3d6a;
+    }
+  </style>
+</head>
+<body>
+
+<h1 id="settings-title">Настройки</h1>
+
+<div class="language-selection">
+  <button class="lang-button" data-lang="ru">Русский</button>
+  <button class="lang-button" data-lang="ua">Українська</button>
+  <button class="lang-button" data-lang="en">English</button>
+</div>
+
+<a href="index.html" class="back-home" id="back-home-text">Вернуться на главную</a>
+
+<script src="settings.js"></script>
+</body>
+</html>
